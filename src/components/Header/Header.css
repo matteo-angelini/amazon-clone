@@ -17,6 +17,8 @@
 .header__search {
   display: flex;
   flex: 1;
+  padding-right: 30px;
+  padding-left: 40px;
 }
 
 .header__searchInput {
@@ -24,6 +26,10 @@
   padding: 10px;
   border: none;
   width: 100%;
+}
+
+.header__searchInput:focus {
+  outline: none;
 }
 
 .header__searchIcon {
@@ -45,8 +51,8 @@
 .header__option {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .header__optionLineOne {
